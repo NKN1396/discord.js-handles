@@ -9,7 +9,7 @@ module.exports = function(client, options){
 	require("./listeners/resume")(client)
 
 	//Discord errors
-	require("./listeners/guildUnavailable")(client)
+	require("./listeners/guildUnavailable")(client, options)
 	require("./listeners/rateLimit")(client)
 
 	//Status
