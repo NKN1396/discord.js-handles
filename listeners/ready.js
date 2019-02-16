@@ -5,7 +5,7 @@ module.exports = function(client, options){
 	console.log(`${options.name} has been started on ${moment(Date.now()).utcOffset(1).format("LLLL")}`)
 
 	client.on("ready", function() {
-		console.log("Logged in as " + client.user.tag)
+		console.log("Logged in as " + client.user.tag);
 
 		//Notify users and channels that the bot has been restarted.
 		(async () => {
