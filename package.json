@@ -1,0 +1,20 @@
+{
+	"name": "discord.js-handles",
+	"version": "1.0.0",
+	"description": "A few handlers to prevent my bots from crashing.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"discord.js",
+		"discord",
+		"node"
+	],
+	"author": "NKN1396",
+	"license": "MIT",
+	"dependencies": {
+		"common-tags": "^1.8.0",
+		"moment": "^2.22.2"
+	}
+}

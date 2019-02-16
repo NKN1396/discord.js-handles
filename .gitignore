@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Token
+token.json
+
+#logs
+**/log
+*.log
